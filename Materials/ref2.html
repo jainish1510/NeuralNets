@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>References</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@shadcn/ui/dist/shadcn-ui.min.css"
+    />
+    <style>
+      * {
+        background-color: beige;
+    }
+    h1{
+        color: rgb(172, 126, 56);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+
+    }
+    .card {
+        color: rgb(173, 134, 76);
+        background-color: beige;
+        border-radius: 0.5rem;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        transition: all 0.3s ease-in-out;
+      }
+      a {
+        text-decoration: none;
+      }
+      .card:hover {
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+        transform: translateY(-0.25rem);
+      }
+    </style>
+  </head>
+  <body class="bg-slate-100 text-slate-800">
+    <div class="container mx-auto p-8">
+      <h1 class="text-3xl font-bold mb-6 text-center">References</h1>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="card p-6">
+          <h2 class="text-xl font-semibold mb-4">Books</h2>
+          <ol class="list-decimal pl-4">
+            <li>
+              <a
+                href="http://www.deeplearningbook.org/"
+                class="text-blue-600 hover:underline"
+                >Deep Learning - Goodfellow, Bengio and Courville</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://udlbook.github.io/udlbook/"
+                class="text-blue-600 hover:underline"
+                >Understanding Deep Learning - Prince</a
+              >
+            </li>
+            <li>
+              <a
+                href="http://incompleteideas.net/book/the-book-2nd.html"
+                class="text-blue-600 hover:underline"
+                >Reinforcement Learning: An Introduction Sutton and Barto</a
+              >
+            </li>
+          </ol>
+        </div>
+        <div class="card p-6">
+          <h2 class="text-xl font-semibold mb-4">Papers</h2>
+          <ol class="list-decimal pl-4">
+            <li>
+              <ul class="list-disc pl-4">
+                <li>
+                  <a
+                    href="https://arxiv.org/abs/1512.03385"
+                    class="text-blue-600 hover:underline"
+                    >He et al. (2015) - ResNet</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://arxiv.org/abs/1706.03762"
+                    class="text-blue-600 hover:underline"
+                    >Vaswani et al. (2017) - Transformer</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://paperswithcode.com/paper/improving-language-understanding-by"
+                    class="text-blue-600 hover:underline"
+                    >Radford et al. (2018) - GPT</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://arxiv.org/abs/2010.11929"
+                    class="text-blue-600 hover:underline"
+                    >Dosovitskiy et al. (2020) - ViT</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ol>
+        </div>
+        <div class="card p-6">
+          <h2 class="text-xl font-semibold mb-4">Libraries</h2>
+          <ol class="list-decimal pl-4">
+            <li>
+              <a
+                href="https://pytorch.org/docs/stable/index.html"
+                class="text-blue-600 hover:underline"
+                >Pytorch</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://lightning.ai/docs/pytorch/stable/"
+                class="text-blue-600 hover:underline"
+                >Pytorch lightning</a
+              >
+            </li>
+          </ol>
+        </div>
+        <div class="card p-6">
+          <h2 class="text-xl font-semibold mb-4">Markup</h2>
+          <ol class="list-decimal pl-4">
+            <li>
+              <a
+                href="https://commonmark.org/help/"
+                class="text-blue-600 hover:underline"
+                >Markdown</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.overleaf.com/learn/latex/Mathematical_expressions"
+                class="text-blue-600 hover:underline"
+                >LATEX method</a
+              >
+            </li>
+          </ol>
+        </div>
+        <div class="card p-6">
+          <h2 class="text-xl font-semibold mb-4">Online Data Repositories</h2>
+          <ul class="list-disc pl-4">
+            <li>
+              <a
+                href="http://archive.ics.uci.edu/ml/index.php"
+                class="text-blue-600 hover:underline"
+                >UC Irvine Machine Learning Repository</a
+              >
+            </li>
+            <li>
+              <a
+                href="http://www.image-net.org/"
+                class="text-blue-600 hover:underline"
+                >Image-Net</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://gym.openai.com/docs/"
+                class="text-blue-600 hover:underline"
+                >Open AI Gym</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
