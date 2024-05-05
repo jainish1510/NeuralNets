@@ -2,7 +2,8 @@
 
 Neural networks have become an essential tool in various domains, including computer vision, natural language processing, and many more. This project aims to provide a comprehensive resource for understanding and implementing neural networks using Python and the PyTorch library.
 
-![нервныеклеткинейроныGIF (3)](https://github.com/jainish1510/NeuralNets/assets/78078273/bd99f7d7-b0ee-4416-892a-d73ed3de684b)
+ ![нервныеклеткинейроныGIF (3)](https://github.com/jainish1510/NeuralNets/assets/78078273/bd99f7d7-b0ee-4416-892a-d73ed3de684b)
+
 
 ## Description
 
