@@ -14,7 +14,7 @@ The project covers the following topics:
 
 2. **Feed-Forward Neural Networks**: Explore the building blocks of feed-forward neural networks, including perceptrons, activation functions, and backpropagation.
 
-3. **Convolutional Neural Networks (CNNs)**: Dive into the world of computer vision with CNNs. Learn about convolutions, pooling layers, and popular architectures like VGGNet, ResNet, and more.
+3. **Convolutional Neural Networks (CNNs)**: Dive into the world of computer vision with CNNs. Learn about convolutions, pooling layers, and popular architectures like ResNet, and more.
 
 4. **Recurrent Neural Networks (RNNs)**: Understand the concept of sequential data processing with RNNs. Discover various architectures like Long Short-Term Memory (LSTM) and their applications in natural language processing.
 
